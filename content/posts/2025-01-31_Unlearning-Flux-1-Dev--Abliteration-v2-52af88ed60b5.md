@@ -204,7 +204,7 @@ Make sure you have a GPU with 40GB minimum (A100 or higher).
 pipeline = AutoPipelineForText2Image.from_pretrained(
     "black-forest-labs/FLUX.1-dev",
     torch_dtype=torch.float16,
-    token='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'
+    token=''
 ).to('cuda')
 ```
 
